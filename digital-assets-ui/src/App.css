@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e2f;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.header .logo h1 {
+  font-size: 1.5rem;
+}
+
+.header .mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00b894;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+} */
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  margin: 0;       /* remove top/bottom auto margin */
+  padding: 1rem;   /* optional padding inside */
+  width: 100%;     /* fill entire screen width */
+  max-width: none; /* remove 1200px limit */
+}
+
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.chartWrap {
+  width: 100%;
+  height: 300px;
+}
+
+.tradesList {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 0.5rem;
+}
+
+.tradesList div {
+  padding: 0.5rem;
+  background-color: #f0f2f5;
+  border-radius: 6px;
+  margin-bottom: 0.3rem;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formRow input,
+.formRow select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.formActions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+
+.btn.buy {
+  background-color: #00b894;
+  color: white;
+}
+
+.btn.buy:hover {
+  background-color: #019875;
+}
+
+.btn.secondary {
+  background-color: #dfe4ee;
+}
+
+.btn.secondary:hover {
+  background-color: #cbd3e0;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
