@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I5qxNsC+bak=",
+  "dgSpecHash": "f+ekyx/Rb+s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\mini diplomna\\DigitalAssets.Api\\DigitalAssets.Api.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Track\\TRacking-page-with-controlers\\DigitalAssets.Api\\DigitalAssets.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

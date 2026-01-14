@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\mini diplomna\\DigitalAssets.Api\\DigitalAssets.Api.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Track\\TRacking-page-with-controlers\\DigitalAssets.Api\\DigitalAssets.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\mini diplomna\\DigitalAssets.Api\\DigitalAssets.Api.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Track\\TRacking-page-with-controlers\\DigitalAssets.Api\\DigitalAssets.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\mini diplomna\\DigitalAssets.Api\\DigitalAssets.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Track\\TRacking-page-with-controlers\\DigitalAssets.Api\\DigitalAssets.Api.csproj",
         "projectName": "DigitalAssets.Api",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\mini diplomna\\DigitalAssets.Api\\DigitalAssets.Api.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Track\\TRacking-page-with-controlers\\DigitalAssets.Api\\DigitalAssets.Api.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\mini diplomna\\DigitalAssets.Api\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Track\\TRacking-page-with-controlers\\DigitalAssets.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
