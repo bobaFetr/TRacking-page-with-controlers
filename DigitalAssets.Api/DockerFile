@@ -1,16 +1,15 @@
-# 1. Use the .NET SDK to build the app
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# 1. Use the .NET 10 SDK to build the app
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
 # 2. Copy everything and restore/publish
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# 3. Use the ASP.NET runtime to run the app
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# 3. Use the ASP.NET 10 runtime to run the app
+FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=build /app/out .
 
 # 4. Start the app
-# REPLACE 'YourProjectName.dll' with your actual .dll name (usually the name of your folder)
-ENTRYPOINT ["dotnet", "Tracking-page-with-controlers.dll"]
+ENTRYPOINT ["dotnet", "DigitalAssets.Api.dll"]
